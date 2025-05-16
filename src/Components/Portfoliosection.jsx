@@ -11,7 +11,7 @@ import img6 from "../assets/biker.jpg";
 import img7 from "../assets/tshirt-01.jpg";
 import img8 from "../assets/EGG.png";
 import img9 from "../assets/spiderman.jpg";
-import img10 from "../assets/woman.jpg";
+import img10 from "../assets/Woman.jpg";
 import img11 from "../assets/posterdesign.png";
 
 const artworks = [
