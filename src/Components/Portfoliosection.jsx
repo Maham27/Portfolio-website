@@ -9,6 +9,10 @@ import img4 from "../assets/girl.png";
 import img5 from "../assets/girl2.png";
 import img6 from "../assets/biker.jpg";
 import img7 from "../assets/tshirt-01.jpg";
+import img8 from "../assets/EGG.png";
+import img9 from "../assets/spiderman.jpg";
+import img10 from "../assets/woman.jpg";
+import img11 from "../assets/posterdesign.png";
 
 const artworks = [
   { src: img, title: 'Digital Art 1', category: 'Digital Art' },
@@ -19,6 +23,10 @@ const artworks = [
   { src: img5, title: 'Character Work 2', category: 'Character Design' },
   { src: img6, title: 'Concept Bike', category: 'Character Design' },
   { src: img7, title: 'T-Shirt Mockup', category: 'Character Design' },
+  { src: img8, title: 'EGG', category: 'Digital Art' },
+  { src: img9, title: 'Spiderman', category: 'Illustration' },
+  { src: img10, title: 'Woman', category: 'Illustration' },
+  { src: img11, title: 'Poster Design', category: 'Digital Art' },
 ];
 
 const categories = ['All', 'Digital Art', 'Illustration', 'Character Design'];
@@ -32,7 +40,7 @@ export default function PortfolioSection() {
     : artworks.filter(art => art.category === selectedCategory);
 
   return (
-    <section className="bg-[#f9f9fb] py-10 px-4">
+    <section id="portfolio"className="bg-[#f9f9fb] py-10 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4   md:text-6xl font-serif font-bold text-center bg-gradient-to-r from-[#0a0f2c] via-[#3f4a8a] to-[#9999ff] bg-clip-text text-transparent">Featured Portfolio
         </h2>

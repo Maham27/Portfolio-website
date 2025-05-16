@@ -34,7 +34,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-[#f3f4ff] to-[#e5e7ff] py-16 px-4 md:px-12 lg:px-24 font-outfit">
+    <div id="contact" className="bg-gradient-to-br from-[#f3f4ff] to-[#e5e7ff] py-16 px-4 md:px-12 lg:px-24 font-outfit">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center bg-white shadow-xl rounded-xl overflow-hidden font-outfit">
         {/* Left Info Panel */}
         <div className="bg-[#0a0f2c] text-white p-8 h-full flex flex-col justify-center space-y-6">
@@ -59,7 +59,7 @@ const ContactForm = () => {
           {/* Social Icons */}
 <div className="flex space-x-4 pt-4">
   <a
-    href="https://dribbble.com/yourusername"
+    href="https://dribbble.com/toobayyy"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-pink-300 text-white text-2xl"
@@ -67,7 +67,7 @@ const ContactForm = () => {
     <FaDribbble />
   </a>
   <a
-    href="https://www.behance.net/yourusername"
+    href="https://www.behance.net/toobanavid"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-blue-300 text-white text-2xl"
@@ -75,7 +75,7 @@ const ContactForm = () => {
     <FaBehance />
   </a>
   <a
-    href="https://www.instagram.com/yourusername"
+    href="https://www.instagram.com/too__bay/"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-pink-400 text-white text-2xl"
