@@ -57,7 +57,7 @@ const About = () => (
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn('up')}
-          className="text-4xl md:text-6xl font-sans font-bold text-center bg-gradient-to-r from-[#0a0f2c] via-[#3f4a8a] to-[#9999ff] bg-clip-text text-transparent"
+          className="text-4xl md:text-6xl font-serif font-bold text-center bg-gradient-to-r from-[#0a0f2c] via-[#3f4a8a] to-[#9999ff] bg-clip-text text-transparent"
         >
           About Me
         </motion.h2>
